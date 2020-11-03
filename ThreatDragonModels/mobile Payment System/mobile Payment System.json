@@ -10,7 +10,547 @@
       {
         "title": "mobile Payment System - Threat Model",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 311,
+                "y": 246
+              },
+              "angle": 0,
+              "id": "c04909a1-9624-4baf-86b2-07398b236999",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Bezahlen"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 82,
+                "y": 152
+              },
+              "angle": 0,
+              "id": "3d9fd923-ad16-4273-8c46-ab3efa7b357e",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Kunde"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 488,
+                "y": 12
+              },
+              "angle": 0,
+              "id": "11f81223-8ec0-4992-9982-48470058810f",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Verkäufer"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "3d9fd923-ad16-4273-8c46-ab3efa7b357e"
+              },
+              "target": {
+                "id": "c04909a1-9624-4baf-86b2-07398b236999"
+              },
+              "vertices": [
+                {
+                  "x": 351,
+                  "y": 184
+                }
+              ],
+              "id": "31855d86-04c2-4fe1-9944-93990dad2ff6",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.410701716716276,
+                    "offset": 13.025172310618613
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Kauft etwas",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 558,
+                "y": 158
+              },
+              "angle": 0,
+              "id": "8b570680-eefc-4435-b239-d6741b569c63",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Kassensystem"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 500,
+                "y": 450
+              },
+              "angle": 0,
+              "id": "d7e3f44a-bd17-4e39-bfc3-48d229c5f1cd",
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Webshop"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "8b570680-eefc-4435-b239-d6741b569c63"
+              },
+              "target": {
+                "id": "c04909a1-9624-4baf-86b2-07398b236999"
+              },
+              "vertices": [],
+              "id": "92a81ed3-c905-41c8-9c10-a349ba86d6d8",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4256536814035877,
+                    "offset": -22.607491056120868
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Auswahl anzeigen",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c04909a1-9624-4baf-86b2-07398b236999"
+              },
+              "target": {
+                "id": "8b570680-eefc-4435-b239-d6741b569c63"
+              },
+              "vertices": [
+                {
+                  "x": 443,
+                  "y": 194
+                }
+              ],
+              "id": "f6d2b5bb-4086-4efb-b725-391f439abf16",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "betätigt Kasse",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 10,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c04909a1-9624-4baf-86b2-07398b236999"
+              },
+              "target": {
+                "id": "d7e3f44a-bd17-4e39-bfc3-48d229c5f1cd"
+              },
+              "vertices": [],
+              "id": "e4464919-fcec-42a1-9790-e588372537e4",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Klickt \"Bezahlen\"",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "d7e3f44a-bd17-4e39-bfc3-48d229c5f1cd"
+              },
+              "target": {
+                "id": "c04909a1-9624-4baf-86b2-07398b236999"
+              },
+              "vertices": [
+                {
+                  "x": 380,
+                  "y": 430
+                }
+              ],
+              "id": "6150fa6b-eb3b-414f-a636-751e41e41a50",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Auswahl anzeigen",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 650,
+                "y": 310
+              },
+              "angle": 0,
+              "id": "3ca21335-c787-4637-b181-fcd677ba10ee",
+              "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Bezahlmöglichkeiten"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "3ca21335-c787-4637-b181-fcd677ba10ee"
+              },
+              "target": {
+                "id": "8b570680-eefc-4435-b239-d6741b569c63"
+              },
+              "vertices": [],
+              "id": "73e687b7-97ed-40a6-8f67-6f5712fb50f2",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "sendet\nBezahlmöglichkeiten",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "3ca21335-c787-4637-b181-fcd677ba10ee"
+              },
+              "target": {
+                "id": "d7e3f44a-bd17-4e39-bfc3-48d229c5f1cd"
+              },
+              "vertices": [],
+              "id": "eca4a2b3-7c60-4cfa-9e22-2888f2362062",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "sendet\nBezahlmöglichkeiten",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 15,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 900,
+                "y": 310
+              },
+              "angle": 0,
+              "id": "aa199d16-c04a-435e-97fb-decaf838e8bb",
+              "z": 16,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "QR Code\nBezahlung"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 910,
+                "y": 80
+              },
+              "angle": 0,
+              "id": "d161ae6a-8a8d-4eed-8418-234a83a932a2",
+              "z": 17,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "NFC"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 80,
+                "y": 380
+              },
+              "angle": 0,
+              "id": "7e0630c6-b121-48f7-9107-dcba53a9f9f1",
+              "z": 18,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Geld Laden"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "3d9fd923-ad16-4273-8c46-ab3efa7b357e"
+              },
+              "target": {
+                "id": "7e0630c6-b121-48f7-9107-dcba53a9f9f1"
+              },
+              "vertices": [
+                {
+                  "x": 50,
+                  "y": 320
+                }
+              ],
+              "id": "1f0ca2ce-f245-4e4b-95c9-15cda4b9ad54",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "möchte Geld laden",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 19,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 892
+        }
       }
     ]
   }
