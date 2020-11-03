@@ -1,0 +1,11 @@
+{
+  "summary": {
+    "title": "mobile Payment System",
+    "owner": "Ahash Pirathapan",
+    "description": "Sie werden gebeten für ein neuartiges mobilePayment System eine Sicherheitsanalyse zu erstellen. Das System wird nachfolgend beschrieben.\n\nEin Verkäufer / Shop (Merchant) bietet dem Kunden (Customer) die Möglichkeit an mit einer Mobile App auf seinem Smartphone zu bezahlen. Es gibt zwei Möglichkeit, Scan eines QR-Codesoder mittels NFC Kommunikation mit dem Kassensystem (Point of Sale). \n\nDie Mobile Payment App kann folgendermassen mit Geld geladen werden\n- Pre-Pay: Direktes Laden mit einem Voucher\n- Kredit: Anhängen von Kreditkarten\n- Debit: Verbinden von Konto (Bank)\n\nZahlarten\n- Direkt an einem Kassensystem\n-> Mittels QR-Code, (Backup: 8 Stelliger Code durch manuelle Eingabe)\n-> Via NFC Kommunikation mit dem Kassensystem\n- Webshop\n-> Mittels QR-Code, (Backup: 8 Stelliger Code durch manuelle Eingabe)\n- Peer to Peer Überweisung an einen anderen Nutzer(via Telefonnummer)"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": []
+  }
+}
